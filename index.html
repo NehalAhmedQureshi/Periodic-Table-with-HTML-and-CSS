@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        .orange{
+                background-color: orange;
+        }
+        .pink{
+                background-color: rgb(254, 154, 188);
+        }
+        .skyblue{
+                background-color: lightskyblue;
+        }
+        .yellow{
+                background-color: yellow;
+        }
+        .green{
+                background-color: greenyellow;
+        }
+        .brown{
+                background-color: burlywood;
+        }
+        .lightpink{
+                background-color: rgb(255, 225, 229);
+        }
+        .lightblue{
+                background-color: rgb(198, 241, 255);
+        }
+        .lightbrown{
+                background-color: lightgoldenrodyellow;
+        }
+        .white{
+            background-color: hsl(0, 0%, 100%);
+        }
+        th{
+            border: 2px solid black;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        caption {
+            border: 2px solid black;
+            background-color: #f3e9e9;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>PERIODIC TABLE</caption>
+        <tr>
+            <th class="orange">
+                <p>1</p>
+                <p>H</p>
+            </th>
+            <td colspan="16"></td>
+            <th class="lightblue">
+                <p>2</p>
+                <p>He</p>
+            </th>
+        </tr>
+        
+        <tr>
+            <th class="pink">
+                <p>3</p>
+                <p>Li</p>
+            </th>
+            <th class="skyblue">
+                <p>4</p>
+                <p>Be</p>
+            </th>
+            <td colspan="10"></td>
+            <th class="brown">
+                <p>5</p>
+                <p>B</p>
+            </th>
+            <th class="orange">
+                <p>6</p>
+                <p>C</p>
+            </th>
+            <th class="orange">
+                <p>7</p>
+                <p>N</p>
+            </th>
+            <th class="orange">
+                <p>8</p>
+                <p>O</p>
+            </th>
+            <th class="lightbrown">
+                <p>9</p>
+                <p>F</p>
+            </th>
+            <th class="lightblue">
+                <p>10</p>
+                <p>Ne</p>
+            </th>
+           
+        </tr>
+        <tr>
+            <th class="pink">
+                <p>11</p>
+                <p>Na</p>
+            </th>
+            <th class="skyblue">
+                <p>12</p>
+                <p>Mg</p>
+                
+            </th>
+            <td colspan="10"></td>
+            <th class="green">
+                <p>13</p>
+                <p>Al</p>
+            </th>
+            <th class="brown">
+                <p>14</p>
+                <p>Sl</p>
+            </th>
+            <th class="pink">
+                <p>15</p>
+                <p>P</p>
+            </th>
+            <th class="pink">
+                <p>16</p>
+                <p>S</p>
+            </th>
+            <th class="lightbrown">
+                <p>17</p>
+                <p>Cl</p>
+            </th>
+            <th class="lightblue">
+                <p>18</p>
+                <p>Ar</p>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="pink">
+                <p>19</p>
+                <p>K</p>
+            </th>
+            <th class="skyblue">
+                <p>20</p>
+                <p>Ca</p>
+            </th>
+            <th class="yellow">
+                <p>21</p>
+                <p>Sc</p>
+            </th>
+            <th class="yellow">
+                <p>22</p>
+                <p>Ti</p>
+            </th>
+            <th class="yellow">
+                <p>23</p>
+                <p>V</p>
+            </th>
+            <th class="yellow">
+                <p>24</p>
+                <p>Cr</p>
+            </th>
+            <th class="yellow">
+                <p>25</p>
+                <p>Mn</p>
+            </th>
+            <th class="yellow">
+                <p>26</p>
+                <p>Fe</p>
+            </th>
+            <th class="yellow">
+                <p>27</p>
+                <p>Co</p>
+            </th>
+            <th class="yellow">
+                <p>28</p>
+                <p>Ni</p>
+            </th>
+            <th class="yellow">
+                <p>29</p>
+                <p>Cu</p>
+            </th>
+            <th class="yellow">
+                <p>30</p>
+                <p>Zn</p>
+            </th>
+            <th class="green">
+                <p>31</p>
+                <p>Ga</p>
+            </th>
+            <th class="brown">
+                <p>32</p>
+                <p>Ge</p>
+            </th>
+            <th class="brown">
+                <p>33</p>
+                <p>As</p>
+            </th>
+            <th class="pink">
+                <p>34</p>
+                <p>Se</p>
+            </th>
+            <th class="lightbrown">
+                <p>35</p>
+                <p>Br</p>
+            </th>
+            <th class="lightblue">
+                <p>36</p>
+                <p>Kr</p>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="pink">
+                <p>37</p>
+                <p>Rb</p>
+        </th>
+            <th class="skyblue">
+                <p>38</p>
+                <p>Sr</p>
+        </th>
+            <th class="yellow">
+                <p>39</p>
+                <p>Y</p>
+        </th>
+            <th class="yellow">
+                <p>40</p>
+                <p>Zr</p>
+        </th>
+            <th class="yellow" >  
+                <p>41</p>
+                <p>Nb</p>
+        </th>
+            <th class="yellow" >  
+                <p>42</p>
+                <p>Mo</p>
+        </th>
+            <th class="yellow" >  
+                <p>43</p>
+                <p>Tc</p>
+        </th>
+            <th class="yellow">
+                <p>44</p>
+                <p>Ru</p>
+        </th>
+            <th class="yellow" >  
+                <p>45</p>
+                <p>Rh</p>
+        </th>
+            <th class="yellow" >  
+                <p>46</p>
+                <p>Pd</p>
+        </th>
+            <th class="yellow" >  
+                <p>47</p>
+                <p>Ag</p>
+        </th>
+            <th class="yellow" >  
+                <p>48</p>
+                <p>Cd</p>
+        </th>
+            <th class="green">
+                <p>49</p>
+                <p>In</p>
+        </th>
+            <th class="green">
+                <p>50</p>
+                <p>Sn</p>
+        </th>
+            <th class="brown">
+                <p>51</p>
+                <p>Sb</p>
+        </th>
+            <th class="brown">
+                <p>52</p>
+                <p>Te</p>
+        </th>
+            <th class="lightbrown">
+                <p>53</p>
+                <p>I</p>
+        </th>
+            <th class="lightblue">
+                <p>53</p>
+                <p>Xe</p>
+        </th>
+        </tr>
+
+        <tr>
+            <th class="pink">
+                <p>55</p>
+                <p>Cs</p>
+        </th>
+            <th class="skyblue">
+                <p>56</p>
+                <p>Ba</p>
+        </th>
+            <th class="lightpink">
+                <p>57-71</p>
+                <p></p>
+        </th>
+            <th class="yellow">
+                <p>72</p>
+                <p>Hf</p>
+        </th>
+            <th class="yellow">
+                <p>73</p>
+                <p>Ta</p>
+        </th>
+            <th class="yellow">
+                <p>74</p>
+                <p>W</p>
+        </th>
+            <th class="yellow">
+                <p>75</p>
+                <p>Re</p>
+        </th>
+            <th class="yellow">
+                <p>76</p>
+                <p>Os</p>
+        </th>
+        <th class="yellow">
+            <p>77</p>
+            <p>Ir</p>
+        </th>
+            <th class="yellow">
+                <p>78</p>
+                <p>Pt</p>
+        </th>
+            <th class="yellow">
+                <p>79</p>
+                <p>Au</p>
+        </th>
+            <th class="yellow">
+                <p>80
+                </p>
+                <p>Hg</p>
+        </th>
+            <th class="green">
+                <p>81</p>
+                <p>Tl</p>
+        </th>
+            <th class="green">
+                <p>82</p>
+                <p>Pb</p>
+        </th>
+            <th class="green">
+                <p>83</p>
+                <p>Bi</p>
+        </th>
+            <th class="brown">
+                <p>84</p>
+                <p>Po</p>
+        </th>
+            <th class="lightbrown">
+                <p>85</p>
+                <p>At</p>
+        </th>
+            <th class="lightblue">
+                <p>86</p>
+                <p>Rn</p>
+        </th>
+           
+        </tr>
+
+        <tr>
+            <th class="pink">
+                <p>87</p>
+                <p>Fr</p>
+        </th>
+            <th class="skyblue">
+                <p>88</p>
+                <p>Ra</p>
+        </th>
+            <th class="lightpink">
+                <p>89-103</p>
+                <p></p>
+        </th>
+            <th class="yellow">
+                <p>104</p>
+                <p>Rf</p>
+        </th>
+            <th class="yellow">
+                <p>105</p>
+                <p>Db</p>
+        </th>
+            <th class="yellow">
+                <p>106</p>
+                <p>Sg</p>
+        </th>
+            <th class="yellow">
+                <p>107</p>
+                <p>Bh</p>
+        </th>
+            <th class="yellow">
+                <p>108</p>
+                <p>Hs</p>
+        </th>
+        <th class="yellow">
+            <p>109</p>
+            <p>Mt</p>
+        </th>
+            <th class="yellow">
+                <p>110</p>
+                <p>Ds</p>
+        </th>
+            <th class="yellow">
+                <p>111</p>
+                <p>Rg</p>
+        </th>
+            <th class="yellow">
+                <p>112</p>
+                <p>Cn</p>
+        </th>
+            <th class="white">
+                <p>113</p>
+                <p>Nh</p>
+        </th>
+            <th class="white">
+                <p>114</p>
+                <p>Fl</p>
+        </th>
+            <th class="white">
+                <p>115</p>
+                <p>Mc</p>
+        </th>
+            <th class="white">
+                <p>116</p>
+                <p>Lv</p>
+        </th>
+            <th class="white">
+                <p>117</p>
+                <p>Ts</p>
+        </th>
+            <th class="white">
+                <p>118</p>
+                <p>Og</p>
+        </th>
+           
+        </tr>
+        <tr></tr>
+        <tr>
+            <td colspan="2"></td>
+            <th class="lightpink">
+                <p>57</p>
+                <p>La</p>
+            </th>
+            <th class="lightpink">
+                <p>58</p>
+                <p>Ce</p>
+            </th>
+            <th class="lightpink">
+                <p>59</p>
+                <p>Pr</p>
+            </th>
+            <th class="lightpink">
+                <p>60</p>
+                <p>Nd</p>
+            </th>
+            <th class="lightpink">
+                <p>61</p>
+                <p>Pm</p>
+            </th>
+            <th class="lightpink">
+                <p>62</p>
+                <p>Sm</p>
+            </th>
+            <th class="lightpink">
+                <p>63</p>
+                <p>Eu</p>
+            </th>
+            <th class="lightpink">
+                <p>64</p>
+                <p>Gd</p>
+            </th>
+            <th class="lightpink">
+                <p>65</p>
+                <p>Tb</p>
+            </th>
+            <th class="lightpink">
+                <p>66</p>
+                <p>Dy</p>
+            </th>
+            <th class="lightpink">
+                <p>67</p>
+                <p>Ho</p>
+            </th>
+            <th class="lightpink">
+                <p>68</p>
+                <p>Er</p>
+            </th>
+            <th class="lightpink">
+                <p>69</p>
+                <p>Tm</p>
+            </th >
+            <th class="lightpink">
+                <p>70</p>
+                <p>Yb</p>
+            </th>
+            <th class="lightpink">
+                <p>71</p>
+                <p>Lu</p>
+            </th>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <th class="lightpink">
+                <p>89</p>
+                <p>Ac</p>
+            </th>
+            <th class="lightpink">
+                <p>90</p>
+                <p>Th</p>
+            </th>
+            <th class="lightpink">
+                <p>91</p>
+                <p>Pa</p>
+            </th>
+            <th class="lightpink">
+                <p>92</p>
+                <p>U</p>
+            </th>
+            <th class="lightpink">
+                <p>93</p>
+                <p>Np</p>
+            </th>
+            <th class="lightpink">
+                <p>94</p>
+                <p>Pu</p>
+            </th>
+            <th class="lightpink">
+                <p>95</p>
+                <p>Am</p>
+            </th>
+            <th class="lightpink">
+                <p>96</p>
+                <p>Cm</p>
+            </th>
+            <th class="lightpink">
+                <p>97</p>
+                <p>Bk</p>
+            </th>
+            <th class="lightpink">
+                <p>98</p>
+                <p>Cf</p>
+            </th>
+            <th class="lightpink">
+                <p>99</p>
+                <p>Es</p>
+            </th>
+            <th class="lightpink">
+                <p>100</p>
+                <p>Fm</p>
+            </th>
+            <th class="lightpink">
+                <p>101</p>
+                <p>Md</p>
+            </th >
+            <th class="lightpink">
+                <p>102</p>
+                <p>No</p>
+            </th>
+            <th class="lightpink">
+                <p>103</p>
+                <p>Lr</p>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
